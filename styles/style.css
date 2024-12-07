@@ -74,6 +74,7 @@ header{
     background-size: cover;
     height:70vh;
     border-radius: 18px;
+    padding: 0px 128px;
 }
 .banner-description{
     align-items: center;
@@ -262,6 +263,7 @@ header{
 
 /* A Simple Perfect Place To Get Lost */
 .container{
+    height: 440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -284,8 +286,7 @@ header{
     color: #131318;
     font-size: 50px;
     font-weight: 800;
-    padding-bottom: 30px;
-
+    padding-bottom: 40px;
 }
 .container-text p{
     padding: 15px, 0;
@@ -306,8 +307,9 @@ header{
 
 /* Newsletter */
 .newsletter{
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
 }
@@ -318,6 +320,15 @@ header{
     border: 1px solid #FF5400;
     border-radius: 16px;
 }
+
+.news-hr{
+    padding-bottom: 2px;
+    width: 310px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 1px ;
+}
+
 .form  h2{
     color: #131318;
     font-size: 25px;
@@ -328,6 +339,7 @@ header{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+    padding-top: 10px;
 }
 
 .form > input{
@@ -340,6 +352,7 @@ header{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     outline: none;
+    padding-left: 10px;
 }
 .newsletter-pic img{
     width: 672px;
@@ -350,25 +363,26 @@ header{
 }
 .save-of{
     position: absolute;
-    bottom: 52px;
+    bottom: 55px;
     left: 340px;
 }
 .save-of p{
+    align-items: center;
     color: #FFF;
     font-size: 24px;
     font-weight: 400;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .save-of h2{
     margin-top: 10px;
     color: #FFF;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 800;
 }
 .save-of{
-    width: 324px;
+    width: 320px;
     height: 120px;
-    transform: rotate(-19.628deg);
+    transform: rotate(-19.600deg);
     border-radius: 16px;
     background: #FF5400;
 }
@@ -378,6 +392,7 @@ header{
 .save-of {
     text-align: center;
 }
+
 
 /* footer section */
 .footer{
