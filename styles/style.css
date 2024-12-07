@@ -7,14 +7,14 @@
 
 /* Header */
 header{
-    max-width: 1440px;      /* As Mobile Device width : 320-1440 px*/
+    max-width: 1440;      /* As Mobile Device width : 320-1440 px*/
     padding: 30px 130px;
     margin: 0 auto;
 }
 
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -44,7 +44,7 @@ header{
 /* navbar section */
 
 .navbar > nav ul{
-    display: flex;   
+    display: flex;  
 }
 
 .navbar > nav ul li{
@@ -62,4 +62,69 @@ header{
 .navbar > nav ul li #Home{
     font-weight: 800;
     color: #FF5400;
+}
+
+/* Banner Section */
+.banner{
+    margin-top: 50px;
+    background-image: linear-gradient(180deg, #1c1c1e 0%, rgba(23, 19, 35, 0) 100%),url('../images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:70vh;
+    border-radius: 18px;
+}
+.banner-description{
+    align-items: center;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.banner-description h2{
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 800;
+}
+.banner-description p{
+    padding: 38px 0px;
+    width: 676px;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner-section{
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner-section input, select, button{
+    width: 170px;
+    height: 52px;
+    padding:0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.banner-section input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 15px;
+    font-weight: 400;
+}
+.banner-section select, option{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 15px;
+    font-weight: 400;
+}
+.banner-section button{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
 }
