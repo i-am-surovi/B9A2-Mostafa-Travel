@@ -136,7 +136,7 @@ header{
 .first-section{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 30px 128px;
+    padding: 0px 128px;
 }
 .tours{
     margin-top: 30px;
@@ -165,7 +165,7 @@ header{
     font-weight: 400;
     margin-bottom: 15px;
 }
-.tours-section button{
+.btn-primary{
     width: 174px;
     height: 52px;
     border-radius: 8px;
@@ -260,7 +260,124 @@ header{
     grid-row: 3/span 3;
 }
 
+/* A Simple Perfect Place To Get Lost */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.container-img p{
+    position: relative;
+    bottom: 220px;
+    left: 0px;
+    text-align: center;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+.container-img img{
+    width: 600px;
+    height: 440px;
+}
+.container-text h2{
+    color: #131318;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 30px;
 
+}
+.container-text p{
+    padding: 15px, 0;
+    width: 577px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.container-text li{
+    width: 500px;
+    color: #131318;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Newsletter */
+.newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.form {
+    padding: 30px;
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+.form  h2{
+    color: #131318;
+    font-size: 25px;
+    font-weight: 800;
+}
+.form p{
+    width: 350px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form > input{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+}
+.newsletter-pic img{
+    width: 672px;
+    height: 380px;
+}
+.newsletter-pic{
+    position: relative;
+}
+.save-of{
+    position: absolute;
+    bottom: 52px;
+    left: 340px;
+}
+.save-of p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.save-of h2{
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+.save-of{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+}
+.save-of h2 p{
+    
+}
+.save-of {
+    text-align: center;
+}
 
 /* footer section */
 .footer{
