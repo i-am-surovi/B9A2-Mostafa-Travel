@@ -7,14 +7,13 @@
 
 /* Header */
 header{
-    max-width: 1440;      /* As Mobile Device width : 320-1440 px*/
     padding: 30px 130px;
     margin: 0 auto;
 }
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -44,11 +43,13 @@ header{
 /* navbar section */
 
 .navbar > nav ul{
-    display: flex;  
+    display: flex;
+    justify-content: space-between;  
 }
 
 .navbar > nav ul li{
     list-style: none;
+    justify-content: space-between;
 }
 
 .navbar > nav ul li a{
@@ -128,3 +129,54 @@ header{
     font-size: 15px;
     font-weight: 700;
 }
+
+/* main section */
+
+/* Our Popular Tours */
+.first-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 128px;
+}
+.tours{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.tours-section h2{
+    margin-bottom: 20px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.tours-section p{
+    margin-bottom: 15px;
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400;
+}
+.tours-section li{
+    width: 500px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.tours-section button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+.hill-img img{
+    width: 400px;
+    height: 400px;
+}
+
